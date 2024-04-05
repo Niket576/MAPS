@@ -28,6 +28,7 @@ int main() {
     cout<<m.size()<<endl;
     m.erase("Manav");
     cout<<m.size()<<endl;
+    cout<<m["Danav"]<<endl; //this will give the value or frequency
 
     return 0;
 }
